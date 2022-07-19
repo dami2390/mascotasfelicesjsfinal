@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon"/>
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/estilos.css" /> <!-- SASS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Titan+One&display=swap" rel="stylesheet">
+ 
+  <title>Mascotas Felices - Contacto</title>
+  </head>
+
+  <body>
+    <!-- Inicio Logo y Nav -->
+    <header class="header">
+      <div class="container">
+          <div class="row align-items-stretch justify-content-between">
+              <nav class="navbar--propio navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                  <a class="navbar-brand header__logo" href="index.html"><img src="../img/logomascotas.png" alt="Logo"
+                      />Mascotas Felices</a>
+                 
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarCollapse">
+                      <ul class="navbar-nav mr-auto">
+                          <li class="nav-item dropdown">
+                              <img src="img/cart.jpeg" class="nav-link dropdown-toggle img-fluid img-propia" height="70px"
+                                  width="70px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                  aria-expanded="false"></img>
+                              <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+                                  <table id="lista-carrito" class="table">
+                                      <thead>
+                                          <tr>
+                                              <th>Imagen</th>
+                                              <th>Nombre</th>
+                                              <th>Precio</th>
+                                              <th></th>
+                                          </tr>
+                                      </thead>
+                                      <tbody></tbody>
+                                  </table>
+
+                                  <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
+                                  <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Terminar
+                                      Compra</a>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+              </nav>
+          </div>
+      </div>
+  </header>
+  <br>
+    <!-- Fin Logo y Nav -->
+    <main>
+        <div class="contacto__encabezado animate__animated animate__pulse">
+            <b></b>            
+            <h3 >¡Contactate con nosotros!</h3>
+            <b></b>
+        </div>
+      <section class="contacto__seccion">
+
+        <p class="contenido__encabezado--parrafo">
+            Rellena el formulario indicando el producto de tu interés o las dudas, a la brevedad nuestro equipo se pondrá en contacto con vos.
+        </p>
+      </section>
+      <!-- Formulario -->
+
+      <div class="container-fluid row form-container">
+        <form action="" class="formulario col">
+          <div class="formulario__columna1">
+            <label for="nombre">Nombre</label>
+            <br />
+            <label for="correo">Correo</label>
+            <br />
+            <label for="mascota">Mascota</label>
+            <br />
+            <label for="mensaje">Mensaje</label>
+            
+          </div>
+          <div class="formulario__columna2">
+            <input type="text" id="name" name="nombre" placeholder="Escribí tu nombre"/>
+            <input type="text" id="correo" name="correo" placeholder="Escribí tu correo"/>
+            <select id="mascota" name="mascota">
+              <option value="perro">Perro</option>
+              <option value="gato">Gato</option>
+              <option value="otra">Otra</option>
+            </select>
+            <textarea id="mensaje" name="mensaje" placeholder="Dejá tu mensaje :)" style="height: 200px"></textarea>
+            <input type="submit" value="Enviar" />
+          </div>
+        </form>
+        <iframe class="col mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.693208855511!2d-58.268744209853956!3d-34.71291721082115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32f8638286b9b%3A0xaaf5d112c738011b!2sMascotas%20Felices!5e0!3m2!1ses!2sar!4v1650509440468!5m2!1ses!2sar" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe class="col mapa" src="https://www.google.com/maps/d/embed?mid=1dC6O_BBG9fSWcDM2ljvpVsmD1EcoZpQg&ehbc=2E312F" width="640" height="480"></iframe>
+      </div>
+    </main>
+    <!-- Fin Formulario -->
+    <!-- Inicio Footer -->
+    <footer class="footer">
+      <div class="footer__derechos">
+        <h6>Mascotas Felices 2022 - Todos los derechos reservados</h6>
+        <small>Powered by Damian Ferrara</small>
+      </div>
+      <div class="footer__redes">
+        <a href="https://www.instagram.com/mascotas.ffelices"><img src="../img/whatsapp.png" alt="whatsapp" class="redes redes--whatsapp" ></a>
+        <a href="https://www.instagram.com/mascotas.ffelices"><img src="../img/facebook.png" alt="facebook" class="redes redes--facebook" ></a>
+        <a href="https://www.instagram.com/mascotas.ffelices"><img src="../img/instagram.png" alt="instagram" class="redes redes--instagram"></a>
+      </div>
+      <div class="footer__pagos">
+          <img src="../img/pagos.png" alt="pagos">
+      </div>
+    </footer>
+    <!-- Fin Footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+
+    <script src="js/carrito.js"></script>
+    <script src="js/compra.js"></script>
+
+  </body>
+</html>

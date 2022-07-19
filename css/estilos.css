@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* Variables */
+/* Tamaño Celular */
+@media screen and (max-width: 526px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .header h2 {
+      text-align: center; }
+  .header__titulo {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+  .header__navbar {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center; }
+    .header__navbar li {
+      margin: 5px; }
+  .principal, .principal__carousel, .principal__nosotros {
+    display: flex;
+    flex-direction: column; }
+  .header__buscador {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .header__buscador--boton {
+    width: 25%;
+    margin: 10px; }
+  .alimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .formulario__columna1, .formulario__columna2, input[type=submit] {
+    width: 100%;
+    margin-top: 0; }
+  .formulario {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 12px;
+    grid-template-areas: "formulario__columna2" "formulario__columna2";
+    margin: 35px; }
+  label {
+    display: none; }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical; }
+  .form-container {
+    margin-left: 0; }
+  input[type=submit] {
+    float: none;
+    margin: 0; }
+  .header__buscador--buscar {
+    width: 75% !important;
+    margin: 10px; }
+  .navbar--propio {
+    margin-top: 15px;
+    justify-content: center !important; }
+  .navbar-contenedor {
+    justify-content: center !important; }
+  .navbar-nav-propio {
+    justify-content: center !important; } }
+
+.dropdown-item {
+  background-color: #1d998b; }
+  .dropdown-item:hover {
+    background-color: #f07f13; }
+
+/* @import "redes"; */
